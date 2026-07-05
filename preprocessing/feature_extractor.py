@@ -4,8 +4,14 @@ from pathlib import Path
 import pandas as pd
 import spacy
 
-# Load spaCy model
-nlp = spacy.load("en_core_web_sm")
+# Load spaCy model (works locally and on Streamlit Cloud)
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    from spacy.cli import download
+
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 # Load skills from CSV
 skills_file = Path("data/skills/skills.csv")
@@ -119,7 +125,7 @@ class FeatureExtractor:
         ):
             return "Bachelor of Engineering (Computer Science)"
 
-        # Information Science
+        # Information Science Engineering
         elif (
             "information science" in text
             and (
