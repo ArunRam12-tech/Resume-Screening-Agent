@@ -1,0 +1,22 @@
+Software Engineer
+
+Required Skills:
+Python
+Java
+SQL
+Git
+React.js
+REST API
+Machine Learning
+
+Experience:
+0-2 years
+
+Education:
+Bachelor's Degree in Computer Science
+
+Responsibilities:
+Develop scalable backend applications.
+Work with relational databases.
+Build AI-powered software.
+Collaborate using Git.

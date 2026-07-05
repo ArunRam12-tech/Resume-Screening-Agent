@@ -1,0 +1,27 @@
+.main {
+    background-color: #0F172A;
+}
+
+h1 {
+    color: #38BDF8;
+}
+
+h2,h3,h4 {
+    color: white;
+}
+
+.stButton>button {
+    background:#2563EB;
+    color:white;
+    border-radius:10px;
+    border:none;
+    height:45px;
+    width:100%;
+    font-size:16px;
+}
+
+.stMetric{
+    background:#1E293B;
+    padding:15px;
+    border-radius:10px;
+}

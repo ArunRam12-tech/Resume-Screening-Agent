@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+sentence-transformers
+spacy
+pdfplumber
+python-docx
+PyPDF2
+phonenumbers
+rapidfuzz
+joblib
+pytest
+tabulate
+colorama
+torch
+transformers
